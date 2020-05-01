@@ -1,0 +1,463 @@
+
+#first_div{
+    background-color:#2E86C1;
+    height: 45px;
+    display: block;
+    max-width: 100%;
+}
+#fb_icon{
+    width: 25px;
+    color: white;
+    position: absolute;
+    top: 20px;  
+}
+#whatsapp_icon{
+    width: 20px;
+    position: absolute;
+    top: 22px;
+    left: 260px;
+}
+#youtube_icon{
+    width: 35px;
+    position: absolute;
+    top: 15px;
+    left: 210px;
+}
+#insta{
+    width: 30px;
+    position: absolute;
+    top: 18px;
+    left: 180px;
+}
+#twitter{
+    width: 17px;
+    position: absolute;
+    top: 25px;
+    left:152px
+}
+#fb{
+    width: 17px;
+    position: absolute;
+    top: 22px;
+    left: 120px;
+}
+#div1{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top:8px;
+    left: 420px;
+}
+#buttons{
+    text-align:right;
+    position: relative;
+    top: 6px;
+    right: 28px; 
+}
+.btn{
+    padding: 7px;
+    color: grey;
+}
+#second_div{
+    background-color:#F7F9F9;
+    height: 74px;
+    max-width:100%;
+    display: block;
+}
+#saylani{
+    width: 155px;
+    position: absolute;
+    left: 120px;
+    top: 9px;
+}
+.dropdown{
+    background-color: #F7F9F9;
+    text-align: center;
+     width: 80px;
+    position: absolute;
+    left: 280px;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.dropdown ul{
+    display: inline-flex;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.dropdown ul li{
+    width: 120px;
+    padding: 12px;
+}
+.dropdown ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active, .dropdown ul li:hover{
+    background: #2E86C1;
+    border-radius: 25px;
+} 
+.sub_menu1{
+    display: none;
+}
+.dropdown ul li:hover .sub_menu1{
+    display: block;
+    position: absolute;
+    background-color:white;
+    margin-top: 12px;
+    border-bottom: 1px solid;
+    line-height: 15px;
+    width: 160px;
+    margin-left: 12px;
+}
+.dropdown ul li:hover .sub_menu1 ul{
+    display: block;
+    margin: 8px;
+}
+.dropdown ul li:hover .sub_menu1 ul li{
+    width: 120px;
+    padding: 8px;
+    text-align: left;
+    position: relative;
+    right: 42px;
+    padding-right: 20px;
+}
+.dropdown ul li:hover .sub_menu1 ul li a:hover{
+    color: white;
+}
+.sub_menu2{
+    display: none;
+}
+.hover_me:hover .sub_menu2{
+    position: absolute;
+    display: block;
+    margin-top: -31px;
+    margin-left: 140px;
+    background: white;
+}
+.sub_menu3{
+    display: none;
+}
+.hover_again:hover .sub_menu3{
+    position: absolute;
+    display: block;
+    margin-top: -46px;
+    margin-left: 140px;
+    background: white;
+}
+#third_div{
+    max-width: 100%;
+}
+#blood{
+    width: 100%;
+    height: 500px;
+}
+#fourth_div{
+    background-color: #F7F9F9;
+    height: 15px;
+    max-width: 100%;
+}
+#news{
+    background-color: #2E86C1;
+    color: white;
+}
+.green{
+    color: greenyellow;
+}
+#fifth_div{
+    background-color: #F7F9F9;
+    height: 650px;
+    display: block;
+    max-width: 100%;
+}
+.introduction{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.intro{
+    color: #316DC3;
+}
+.duction{
+    color: #427900;
+}
+.element{
+    text-align: justify;
+    visibility: visible;
+    margin-left: 120px;
+    margin-right: 120px;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    line-height: 30px;
+    color: grey;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.small{
+    position: relative;
+    left: 638px;
+    height: 40px;
+    display: inline-block;
+}
+.line{
+    display: inline;
+    font-weight: bold;
+    color: green;
+    font-family: serif;
+    text-align: center;
+}
+#sixth_div{
+    background-color: #316DC3;
+    height: 300px;
+    display: block;
+    max-width: 100%;
+
+}
+.images{
+    width: 45px;
+    text-align: center;
+}
+.results{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 1.42857143;
+    text-transform: uppercase;
+    font-family: serif;
+}
+#food_value{
+    position: relative;
+    top: 70px;
+    right: 410px;
+}
+#family_value{
+    position: relative;
+    bottom: 72px;
+    right: 90px;
+}
+#med_value{
+    position: relative;
+    bottom: 214px;
+    left: 180px;
+}
+#edu_value{
+    position: relative;
+    bottom: 357px;
+    left: 435px;
+}
+#seventh_div{
+    background-color:#F7F9F9 ;
+    display: block;
+    height: 700px;
+    max-width: 100%;
+}
+.facilities{
+    background-color: white;
+    box-sizing: border-box;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+    display: block;
+}
+.pictures{
+    max-width: 100%;
+}
+.text{
+    text-align: center;
+    font-family: serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2E86C1;
+}
+#sadqa{
+    position: relative;
+    left: 100px;
+}
+#welfare{
+    position: relative;
+    left: 480px;
+    bottom: 233px;
+}
+#medical{
+    position: relative;
+    left:860px;
+    bottom: 468px;
+}
+#dk{
+    position: relative;
+    bottom: 450px;
+    left: 100px;
+}
+#RO{
+    position: relative;
+    bottom: 682px;
+    left: 480px;
+}
+#education{
+    position: relative;
+    bottom: 920px;
+    left: 860px;
+}
+#eighth{
+    background-color: white;
+    height: 400px;
+    display: block;
+    max-width: 100%;
+}
+#left{
+    text-align: left;
+}
+.mission{
+    padding-top: 25px;
+    padding-left: 100px;
+    color: #316DC3;
+    font-weight: 600;
+    font-family: serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.project{
+    text-transform: uppercase;
+    display: block;
+    box-sizing: border-box;
+    padding: 7px;
+    background-color:#F7F9F9 ;
+    border: 1px solid #eeeeee;
+    width: 350px;
+    text-align: left;
+}
+.para{
+    display: inline-block;
+    position: relative;
+    left: 45px;
+    font-family: serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    color: #316DC3;
+}
+.life{
+    max-width: 100%;
+    vertical-align: middle;
+}
+#hepatitis{
+    position: relative;
+    left: 100px;
+}
+#housing{
+    position: relative;
+    bottom: 72px;
+    left: 470px;
+}
+#IT{
+    position: relative;
+    bottom: 50px;
+    left: 100px;
+}
+#thar{
+    position: relative;
+    bottom: 122px;
+    left: 470px;
+}
+#mission{
+    text-align: right;
+    display: inline;
+    position: relative;
+    bottom: 332px;
+    left: 900px;
+    text-transform:uppercase;
+    color: #316DC3;
+    font-weight: 600;
+    font-size: 24px;
+}
+#upcoming{
+    line-height: 20px;
+    color: #666666;
+    font-size: 14px;
+    font-family: sans-serif;
+    box-sizing: content-box;
+    width: 250;
+    height: 200;
+    position: relative;
+    left: 900px;
+    bottom: 336px;
+}
+#ninth_div{
+    height: 170px;
+}
+#image_gallery{
+    position: relative;
+    bottom: 300px;
+    left: 0px;  
+}
+.gallery{
+    width: 230px;
+    display: inline-block;
+}
+#displays{
+    position: relative;
+    bottom: 260px;
+    left: 55px;
+}
+#tenth_div{
+    background-color:#34495E;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 400px;
+}
+.links{
+    width: 18px;
+}
+#contacts{
+    color: white;
+    font-size: 14px;
+    font-family:sans-serif;
+    padding: 70px;
+    margin: 20px;
+    text-align: left;
+}
+#useful{
+    padding: 10px;
+    text-align:center;
+    position: relative;
+    bottom: 400px;
+    font-family: serif;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+
+#last{
+    text-align: right;
+    position: relative;
+    bottom: 470px;
+    right: 300px;
+    color: white;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 20px;
+    list-style-type: none;
+}
+#new_ul{
+    background-color:#34495E ;
+    width: 200px;
+    position: relative;
+    left: 1100px;
+}
+#last_div{
+    background-color:#316DC3;
+    position: relative;
+    bottom: 12px;
+    height: 50px;
+
+}
